@@ -12,6 +12,8 @@ print('hello world')
 ```
 [This is the link](https://www.youtube.com)
 
-[X] grpc server-client
-[X] server.py
+[-] grpc server-client
+
+[-] server.py
+
 [ ] Checkbox2
