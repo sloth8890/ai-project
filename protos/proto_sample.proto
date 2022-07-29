@@ -1,5 +1,5 @@
 syntax = "proto3";
-// 설계도
+// protobuf protobuffer 설계도
 // input: bytes frame(image), output: int32
 service RemoteControlService {
     rpc process(UserRequest) returns (ServerReply) {}

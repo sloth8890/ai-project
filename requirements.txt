@@ -1,0 +1,27 @@
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_83242e7e-f82d-4a71-8ef2-9d71d212d249gu_wxmeq/croots/recipe/certifi_1655968827803/work/certifi
+coloredlogs==15.0.1
+dlib==19.24.0
+flatbuffers==2.0
+fvcore==0.1.5.post20220512
+grpcio==1.47.0
+grpcio-tools==1.47.0
+humanfriendly==10.0
+iopath==0.1.10
+mpmath==1.2.1
+numpy==1.23.1
+onnxruntime==1.12.0
+opencv-python==4.6.0.66
+packaging==21.3
+Pillow==9.2.0
+portalocker==2.5.1
+protobuf==3.20.1
+pyparsing==3.0.9
+pytz==2022.1
+PyYAML==6.0
+six==1.16.0
+sympy==1.10.1
+tabulate==0.8.10
+termcolor==1.1.0
+tqdm==4.64.0
+typing_extensions==4.3.0
+yacs==0.1.8
