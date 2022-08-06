@@ -1,5 +1,5 @@
 # Eyesight Protector
-![](https://cdn.theatlantic.com/media/mt/food/computereyes.jpg)
+![](eyesight_protector.jpeg)
 ## Introduction
 
 Due to pandemic children takes remote classes without acknowledging impact of screen on their eyesight. This program helps them to keep a distance from the screen.
