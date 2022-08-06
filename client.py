@@ -26,7 +26,7 @@ def request(ip, port, frame):
 def opt():
     parser = argparse.ArgumentParser()
     
-    parser.add_argument('--port', type=str, default='50051', help='port number (defualt: 50051)')
+    parser.add_argument('--port', type=str, default='16023', help='port number (defualt: 16023)')
     parser.add_argument('--ip', type=str, default='localhost:', help='ip address (default: localhost:')
     
     parser.add_argument('--thres', type=int, default=150, help='threashold value for to oclose')
