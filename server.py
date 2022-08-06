@@ -82,7 +82,7 @@ class MyAI_Model(proto_sample_pb2_grpc.RemoteControlService):
 def opt():
     parser = argparse.ArgumentParser()
     #? grpc option
-    parser.add_argument('--port', type=str, default='50051', help='Port number, default: 50051')
+    parser.add_argument('--port', type=str, default='16023', help='Port number, default: 16023')
     parser.add_argument('--num_worker', type=int, default=8, help='the number of threads. default: 8')
     parser.add_argument('--logdir', type=str, default='./service_log', help='directory where the logging file is saved.')
     return parser.parse_args()
