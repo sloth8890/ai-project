@@ -8,19 +8,40 @@ This ai-project utilise dlib open source library to create interactive program t
 
 Server client is created by gRPC framework to communicate between client and server
 
-[This is the link](https://www.youtube.com)
 
-## Compiling
+## Installation
+1. Prerequisties 
+    Follow the command below.
+    1. Optional: Recommanded to use Anaconda Virtual Environment
+        ```
+        conda create -n <name of environment> python=3.8
+        conda activate <name>
+        pip install -r requirements.txt
+        ```
+    2. without anaconda
+
+
+2. Build Faceboxes
 ```
-python server.py
-python client.py
+cd utils
+python3 build.py build_ext --inplace
+cd ..
 ```
 
-## License
+3. Build gRPC protobuf
+```
+sh build_grpc_pb.sh
+```
 
-<!-- ![img](1.jpeg) -->
+## How to Run
+To activate server
+```
+python server.py --port <port number>
+```
+To activate client
+```
+python client.py --ip <server ip> --port <port number>
+```
 
-
-## Reference
-
-[![GitHub Actions C++ Status](https://github.com/davisking/dlib/actions/workflows/build_cpp.yml/badge.svg)](https://github.com/davisking/dlib/actions/workflows/build_cpp.yml) [![GitHub Actions Python Status](https://github.com/davisking/dlib/actions/workflows/build_python.yml/badge.svg)](https://github.com/davisking/dlib/actions/workflows/build_python.yml)
+## Acknowledgement
+[Dlib libary](https://github.com/davisking/dlib)
