@@ -1,5 +1,7 @@
 # Eyesight Protector
-![](eyesight_protector.jpeg)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+![](eyesight_protector.png)
 ## Abstract
 - My cousin starts remote classes due to pandemic.  
 - However, he could not foucs in class and stay too close on the screen.
